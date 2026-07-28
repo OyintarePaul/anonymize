@@ -1,5 +1,6 @@
 import { google } from "@ai-sdk/google";
 import { generateText, Output } from "ai";
+import "pdf-parse/worker";
 import { PDFParse } from "pdf-parse";
 
 import { ResumeSchema, type Resume } from "./schema";
